@@ -11,6 +11,7 @@ class CompanyNameGenerator < Sinatra::Base
             margin: 0;
           }
         </style>
+        <title>Company name generator</title>
         <body>
           <h1>#{name}</h1>
           <h2>#{bs}</h2>
